@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+}
+
+.free{
+  clear:left;
+  clear:right;
+}
+
+.container{
+  max-width:1000px;
+  margin:0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color:orange;
+  transition:0.2s;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+/*基本設定*/
+*{
+  font-family: "游ゴシック","sans-serif";
+  color:rgba(50,20,0,1);
+}
+
+p{
+  font-size:16px;
+}
+
+/*------------------------------------------------------------------*/
+/*ヘッダー*/
+header{
+  line-height:35px;
+  height:35px;
+  padding:5px;
+  background-color:orange;
+  box-shadow: 0 1px 5px 0 rgba(0,0,100,0.3);
+}
+
+header p{
+  float:left;
+  color:white;
+  font-weight:bold;
+  font-size:26px;
+}
+
+header .edit{
+  margin:0 10px;
+}
+
+header ul{
+  float:right;
+}
+
+header li{
+  float:left;
+  margin-left:10px;
+}
+
+header a:hover{
+  color:white;
+}
+
+/*入力画面*/
+.sub-title{
+  height:30px;
+  border-bottom:solid 1px #dddddd;
+}
+
+form{
+  margin-left:5px;
+}
+
+.input-text{
+  height:24px;
+  margin:1px;
+  width:250px;
+}
+
+.button{
+  color:white;
+  font-weight:bold;
+  height:24px;
+  margin:1px;
+  padding:0 10px;
+  border:none;
+  border-bottom:solid 2px rgba(200,100,0,1);
+  border-radius:2px;
+  background-color:orange;
+}
+
+.puchase{
+  display: inline-block;
+  font-size:20px;
+  line-height:24px;
+  margin-top:20px;
+  padding:5px 10px;
+}
+
+.button:hover{
+  color:rgba(255,255,255,0.8);
+  transition:0.2s;
+}
+
+.button:active{
+  border:none;
+  height:22px;
+  transform:translateY(2px);
+  transition:0.2s;
+}
+
+/*表部分*/
+table{
+  border-collapse: collapse;
+  margin:5px;
+}
+
+td,th{
+  padding:2px 20px 2px 0;
+}
+
+th{
+  color:orange;
+  border-bottom:solid 1px rgba(255,165,0,1);
+}
+
+tr{
+  border-bottom:solid 1px rgba(255,165,0,0);
+}
+
+tr:hover{
+  border-bottom:solid 1px rgba(255,165,0,1);
+  transition:0.8s;
+}
+
+.histry-under-space td{
+  padding-bottom:20px;
+}
